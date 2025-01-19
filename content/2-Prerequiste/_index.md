@@ -7,13 +7,12 @@ pre : " <b> 2. </b> "
 ---
 ### Prerequisites
 - An AWS account (mandatory)
-- Basic understanding of AWS services like S3, Glue, Athena, and QuickSight
+- Basic understanding of AWS services like S3, Glu and Athena
 
 ### AWS Services Used
 - **AmazonS3**: Forstoring raw and processed data.
 - **AWSGlue**: Forbuilding and managing ETL pipelines.
 - **AWSAthena**: Forquerying data using SQL-like syntax.
-- **AWSQuickSight**: For visualizing data.
 
 ### Data Source
 The data used in this workshop is sourced from the [Spotify Dataset 2023](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023) available on Kaggle. The dataset, created by Tony Gordon Jr., includes detailed information about Spotify albums, artists, tracks, and various audio features like danceability, energy, loudness, and more. The dataset is available in CSV format and has been pre-processed for use in this project.
