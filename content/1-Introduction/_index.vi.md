@@ -10,7 +10,7 @@ pre : " <b> 1. </b> "
 Trong workshop này, chúng ta sẽ xây dựng một pipeline xử lý dữ liệu toàn diện sử dụng các dịch vụ đám mây AWS. Mặc dù chúng ta sẽ minh họa pipeline với bộ dữ liệu Spotify, tuy nhiên, kiến trúc dự án đủ linh hoạt để xử lý bất kỳ bộ dữ liệu nào. Trọng tâm là xử lý và phân tích dữ liệu bằng các công cụ AWS như S3, Glue và Athena.
 
 ### Tổng quan về kiến trúc workshop
-![workshop architecture](/images/arc_02.png)
+![workshop architecture](/images/architecture_02.png)
 - **Lớp Staging**: Dữ liệu thô được lưu trữ trong một bucket S3.
 - **Pipeline ETL**: AWS Glue xử lý và chuyển dữ liệu từ lớp staging sang kho dữ liệu.
 - **Kho Dữ liệu**: Dữ liệu đã xử lý được lưu trữ trong một bucket S3 khác.
