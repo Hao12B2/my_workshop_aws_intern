@@ -10,9 +10,9 @@ pre : " <b> 2. </b> "
 - Basic understanding of AWS services like S3, Glu and Athena
 
 ### AWS Services Used
-- **AmazonS3**: Forstoring raw and processed data.
-- **AWSGlue**: Forbuilding and managing ETL pipelines.
-- **AWSAthena**: Forquerying data using SQL-like syntax.
+- **Amazon S3**: For storing raw and processed data.
+- **AWS Glue**: For building and managing ETL pipelines.
+- **AWS Athena**: For querying data using SQL-like syntax.
 
 ### Data Source
 The data used in this workshop is sourced from the [Spotify Dataset 2023](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023) available on Kaggle. The dataset, created by Tony Gordon Jr., includes detailed information about Spotify albums, artists, tracks, and various audio features like danceability, energy, loudness, and more. The dataset is available in CSV format and has been pre-processed for use in this project.
@@ -27,7 +27,3 @@ danceability and energy.
 valence.
 
 > Nguyen Van Hao
-
-{{% notice info %}}
-
-{{% /notice %}}
